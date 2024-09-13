@@ -1,5 +1,6 @@
 
-package uni.pp.cc332.java.timeProcessingThree;
+package uni.cc332.timeProcessingThree;
+
 
 public class Process_Parallel {
     private static Process_Task TSK = new Process_Task();

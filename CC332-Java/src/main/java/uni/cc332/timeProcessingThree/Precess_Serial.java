@@ -1,5 +1,5 @@
 
-package uni.pp.cc332.java.timeProcessingThree;
+package uni.cc332.timeProcessingThree;
 
 
 public class Precess_Serial {
