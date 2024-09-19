@@ -1,4 +1,4 @@
-package uni.pp.cc332.java.prueba1;
+package uni.cc332.prueba1;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

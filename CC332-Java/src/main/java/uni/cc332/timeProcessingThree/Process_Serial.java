@@ -2,7 +2,7 @@
 package uni.cc332.timeProcessingThree;
 
 
-public class Precess_Serial {
+public class Process_Serial {
     private static Process_Task TSK = new Process_Task();
 private static  int N;
 private static int[][] A;

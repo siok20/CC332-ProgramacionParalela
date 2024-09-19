@@ -1,5 +1,5 @@
 
-package uni.pp.cc332.java.productovectorial;
+package uni.cc332.productovectorial;
 
 import java.awt.BorderLayout;
 import java.awt.Font;

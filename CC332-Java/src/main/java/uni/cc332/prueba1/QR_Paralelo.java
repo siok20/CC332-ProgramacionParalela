@@ -1,5 +1,5 @@
 
-package uni.pp.cc332.java.prueba1;
+package uni.cc332.prueba1;
 
 
 public class QR_Paralelo {
