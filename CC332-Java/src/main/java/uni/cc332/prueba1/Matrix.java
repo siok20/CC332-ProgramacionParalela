@@ -28,7 +28,7 @@ public class Matrix {
         return COLS;
     }
 
-    void imprimir(){
+    public void imprimir(){
         for (int i = 0; i < ROWS; i++) {
             for (int j = 0; j < COLS; j++) {
                 System.out.printf("%12.2f",M[i][j]);
