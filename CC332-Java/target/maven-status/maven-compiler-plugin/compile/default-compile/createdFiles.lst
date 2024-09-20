@@ -6,8 +6,10 @@ uni\cc332\productovectorial\DemoThread$2.class
 uni\cc332\prueba1\DataSet.class
 uni\cc332\productovectorial\Thread1.class
 uni\cc332\productovectorial\Thread1$1.class
+uni\cc332\pc1\LSCproblem$2.class
 uni\cc332\timeProcessingThree\Process_Threads.class
 uni\cc332\timeProcessingThree\Process_Serial.class
+uni\cc332\pc1\LSCproblem$1.class
 uni\cc332\timeProcessingThree\Process_Threads$2.class
 uni\cc332\timeProcessingThree\Process_Parallel$2.class
 uni\cc332\pc1\LSCproblem.class
@@ -20,6 +22,7 @@ uni\cc332\timeProcessingThree\Process_Parallel$4.class
 uni\cc332\productovectorial\Thread1$3.class
 uni\cc332\timeProcessingThree\Process_Threads$1.class
 uni\cc332\timeProcessingThree\Process_Parallel$1.class
+uni\cc332\pc1\LSCproblem$Oper1.class
 uni\cc332\productovectorial\Thread1$4.class
 uni\cc332\timeProcessingThree\Process_Threads$4.class
 uni\cc332\prueba1\Matrix.class
@@ -29,6 +32,7 @@ uni\cc332\timeProcessingThree\Process_Parallel$3.class
 uni\cc332\productovectorial\DemoThread$1.class
 uni\cc332\productovectorial\DemoThread$4.class
 uni\pp\cc332\java\CC332Java.class
+uni\cc332\pc1\LSCproblem$3.class
 uni\cc332\productovectorial\Thread1$2.class
 uni\cc332\productovectorial\Thread1$5.class
 uni\cc332\prueba1\QR_Paralelo.class
