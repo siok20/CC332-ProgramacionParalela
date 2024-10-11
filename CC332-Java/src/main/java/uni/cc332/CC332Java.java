@@ -1,5 +1,5 @@
 
-package uni.pp.cc332.java;
+package uni.cc332;
 
 public class CC332Java {
 
