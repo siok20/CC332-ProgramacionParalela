@@ -1,0 +1,5 @@
+Submatriz 2x2 en (0,0):
+    8.0000     1.0000 
+    8.0000     4.0000 
+Determinante: 24.0
+

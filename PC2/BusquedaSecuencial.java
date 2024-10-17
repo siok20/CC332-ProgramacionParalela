@@ -1,15 +1,13 @@
 import java.io.BufferedReader;
-import java.io.FileWriter;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.io.RandomAccessFile;
 
 public class BusquedaSecuencial {
 private static String FILENAME = "DATOS.TXT";
-private static int    N = 1000000;
+private static int    N = 10;
 private static String KEY = "01234567890";
 private static String CADENA;
 private static int BLOCK = 11;
@@ -82,17 +80,17 @@ private static byte[] RECORD = new byte[BLOCK];
        return CADENA;
     }
 
-    public static void WriteData(int N) {
+    public static void WriteData() {
     double X;
     long num;
         try {
             FileWriter FW = new FileWriter(FILENAME);
             for(int i=1;i<=N-1;i++) {
-                X = Math.random()*9000000000.0;
-                num = 1000000000 + (long)X;
-                FW.write(num + " ");
+                X = Math.random()*9.0;
+                num = 1 + (long)X;
+                FW.write(""+num);
             }
-            FW.write("01234567890");
+            //FW.write("01234567890");
             FW.close();
         }
         catch (IOException E) {
@@ -103,7 +101,7 @@ private static byte[] RECORD = new byte[BLOCK];
 
     //--------------------------------------------------
     public static void main(String[] args) {
-      WriteData(N);
+      WriteData();
       ProcesoSerial();
     }
 
