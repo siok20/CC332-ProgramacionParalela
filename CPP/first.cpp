@@ -10,6 +10,7 @@ int main(int argc, char *argv[]) {
     int world_rank;
     MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
 
+
     std::cout << "Hello from processor " << world_rank;
     std::cout << " out of " << world_size << " processors." << std::endl;
 

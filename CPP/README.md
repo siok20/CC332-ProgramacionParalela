@@ -10,10 +10,15 @@ sudo apt install mpich
 Compilar
 
 ```bash
-mpic++ main.cpp -o main
+mpic++ first.cpp -o first
+```
+o
+
+```bash
+mpicxx -o first first.cpp
 ```
 
 Ejecutar
 ```bash
-mpiexec -n 4 ./main
+mpiexec -n 4 ./first
 ```
