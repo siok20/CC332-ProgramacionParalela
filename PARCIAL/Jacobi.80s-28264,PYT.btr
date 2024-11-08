@@ -1,0 +1,15 @@
+
+Jacobi:28264 terminated with signal 6 at PC=7f112c8ff9fc SP=7fff7f8a8ea0.  Backtrace:
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f112c8ff9fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f112c8ab476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7f112c8917f3]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7f112cc3bb9e]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7f112cc4720c]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7f112cc47277]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7f112cc474d8]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa27ac)[0x7f112cc3b7ac]
+./Jacobi(+0x1fdc)[0x5593e467cfdc]
+./Jacobi(+0x1c69)[0x5593e467cc69]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f112c892d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f112c892e40]
+./Jacobi(+0x1365)[0x5593e467c365]

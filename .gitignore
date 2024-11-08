@@ -2,3 +2,4 @@
 *.class
 *.exe
 .vscode
+/miniproject/target/

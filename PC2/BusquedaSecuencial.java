@@ -10,8 +10,8 @@ private static String FILENAME = "DATOS.TXT";
 private static int    N = 10;
 private static String KEY = "01234567890";
 private static String CADENA;
-private static int BLOCK = 11;
-private static byte[] RECORD = new byte[BLOCK];
+private static final int BLOCK = 11;
+private static final byte[] RECORD = new byte[BLOCK];
 //
 
     //------------------------------------------------
